@@ -1,0 +1,371 @@
+@media(max-width: 991px){
+	header > div.stoned-container{
+		display: none;
+	}
+
+	header > div.responsive-header{
+		display: block;
+	}
+
+	header > div.responsive-header .responsive-logo{
+		height: 100px;
+		line-height: 100px;
+	}
+
+	header > div.responsive-header .responsive-logo img{
+		height: 70px;
+	}
+
+	header > div.responsive-header .responsive-menu ul{
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		position: relative;
+		z-index: 3;
+		background: #fff;
+	}
+
+	header > div.responsive-header .responsive-menu ul.menu{
+		display: none;
+		padding: 15px;
+	}
+
+	header > div.responsive-header .responsive-menu ul li{
+		padding: 0;
+		margin: 0;
+	}
+
+	header > div.responsive-header .responsive-menu > div > ul > li > a{
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	header > div.responsive-header .responsive-menu ul li a{
+		display: inline-block;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-size: 16px;
+		color: #000;
+		text-transform: uppercase;
+	}
+
+	header > div.responsive-header .responsive-menu > a{
+		display: block;
+		background-color: #eb2227;
+		color: #fff;
+		padding: 10px;
+		font-size: 18px;
+	}
+
+	header > div.responsive-header .responsive-menu.fixed-rm {
+	    position: fixed;
+	    top: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 2;
+	}
+
+	header > div.responsive-header .responsive-social-shares{
+		padding: 15px 0;
+	}
+
+	header > div.responsive-header .responsive-social-shares a{
+		display: inline-block;
+		width: 20px
+		height: 20px;
+		text-align: center;
+		padding: 15px;
+		font-size: 18px;
+	}
+
+	.page-heading-text{
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.portfolio-heading-filter{
+		position: static;
+		text-align: center;
+	}
+
+	.item{
+		margin: 0;
+	}
+
+	.footer-container .contact-details-container, 
+	.footer-container .text-container{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.contact-details-container .list-inline > li{
+		display: block;
+		padding: 5px;
+	}
+
+	.contact-details-container .list-inline > li:after{
+		display: none;
+	}
+
+	.person-image, .person-info-container{
+		width: 100%;
+	}
+
+	.person-image .container-square, .person-info-container .container-square{
+		padding-bottom: initial;
+		height: auto;
+	}
+
+	.person-image .container-square .content,
+	.person-info-container .container-square .content{
+		position: static;
+	}
+
+	.rsNav.rsThumbs.rsThumbsHor{
+		display: none;
+	}
+
+	.full-slider .animation-block{
+		padding: 0 30px;
+	}
+
+	.full-slider .animation-block .rsABlock{
+		text-align: center !important;
+	}
+
+	.full-slider.transparent-header-footer .animation-block {
+		margin: 223px 40px 0 !important;
+		padding: 0;
+	}
+
+	.admin-bar .full-slider.transparent-header-footer .animation-block{
+		margin: 255px 40px 0 !important;
+	}
+
+	.full-slider .animation-block {
+		margin: 0 40px 0 !important;
+		padding: 0;
+	}
+
+	.full-slider .animation-block .rsABlock{
+		position: absolute !important;
+		top: 0 !important;
+		left: 0 !important;
+		right: 0 !important;
+	}
+
+	.full-slider{
+		position: relative;
+	}
+
+	.full-slider.transparent-header-footer{
+		position: static;
+	}
+
+	.modal-close{
+		width: 40px;
+		height: 40px;
+		top: 50px;
+		right: 5px;
+	}
+
+	.contact-details-responsive.container-square{
+		margin: 30px 0;
+		height: auto;
+		padding: 0;
+	}
+
+	.contact-details-responsive.container-square > .content{
+		position: static;
+	}
+
+	.about-us{
+		height: auto;
+		padding: 30px;
+	}
+
+	body{
+		position: static;
+	}
+
+	#wpadminbar a img{
+		float: none !important;
+	}
+
+	.page-template-template-aboutus .nav2{
+		margin: 0;
+	}
+
+	.container-square.about-me-desc-container,
+	.container-square.about-me-cv-container{
+		height: auto;
+		padding: 0;
+	}
+
+	.container-square.about-me-desc-container .content,
+	.container-square.about-me-cv-container .content{
+		position: static;
+	}
+
+	.page-template-template-aboutme .stoned-container{
+		margin-bottom: 30px;
+	}
+
+	.service2{
+		margin-bottom: 30px;
+		border: 2px solid #ddd;
+	}
+
+	.services2-container{
+		border: 0;
+	}
+
+	.service2 .container-16-9{
+		height: auto;
+		padding: 0;
+	}
+
+	.service2 .content{
+		position: static;
+	}
+
+	.service2 i{
+		display: inline-block;
+		padding: 30px 0;
+	}
+
+	.blog-item .blog-image,
+	.blog-item:hover .blog-image{
+		background-size: cover;
+	}
+
+	.container-square.contact-form-responsive{
+		height: auto;
+		padding: 0;
+		margin-bottom: 30px;
+	}
+
+	.container-square.contact-form-responsive .content{
+		position: static;
+	}
+
+	.contact-textarea{
+		height: 300px;
+	}
+
+	.contact-form .field{
+		overflow: hidden;
+	}
+
+	.sth_message{
+		margin: 0;
+	}
+
+	.home-slider-container{
+		margin-bottom: 30px;
+	}
+
+	.project-details{
+		width: auto;
+		margin: 0;
+		padding: 0;
+	}
+
+	.project-navigation{
+		margin-bottom: 30px;
+	}
+
+	.single-format-quote .container-16-9{
+		height: auto;
+		padding: 0;
+	}
+
+	.single-format-quote .container-16-9 .content{
+		position: static;
+	}
+
+	.quote-container{
+		padding: 30px;
+	}
+
+	.single-format-quote .container-16-9 .vertical-center2-content.padding-lg{
+		padding: 0;
+	}
+}
+
+/*for wpadminbar responsive */
+@media screen and (max-width: 782px){
+	#wpadminbar #wp-admin-bar-user-actions.ab-submenu img.avatar-64{
+		display: none;
+	}
+}
+
+@media (max-width: 767px){
+	.blog-item .blog-date{
+		border: 0;
+		top: 10px;
+		right: 0;
+		margin: 0;
+		width: auto;
+		height: auto;
+		left: 0;
+		text-align: center;
+		float: none !important;
+	}
+
+	.blog-item .blog-image{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1200px){
+	.header-v2 .menu > li > a{
+		padding-left: 10px;
+		padding-right: 10px;
+		line-height: 120px;
+	}
+
+	.shares > a, .shares ul li, .search-btn a{
+		width: 45px;
+		height: 45px;
+	}
+
+	.header-v5 .menu-icon > a,
+	.header-v3 .menu-icon > a{
+		width: 45px;
+		height: 45px;
+	}
+}
+
+@media(min-width: 1500px){
+	.service2-text .content{
+		padding: 45px;
+	}
+
+	.service,
+	.about-me-cv,
+	.about-me-desc,
+	.contact-details{
+		padding: 50px;
+	}
+
+	.contact-form input[type="text"]{
+		height: 60px;
+	}
+
+	.contact-textarea {
+		height: calc(100% - 240px);
+	}
+
+	.contact-form .icon{
+		width: 60px;
+		height: 60px;
+	}
+
+	.contact-form input[type="submit"]{
+		height: 60px;
+		line-height: 60px;
+	}
+}
